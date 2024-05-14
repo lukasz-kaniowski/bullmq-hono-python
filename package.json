@@ -3,7 +3,10 @@
     "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
+    "@bull-board/api": "^5.17.1",
+    "@bull-board/hono": "^5.17.1",
     "@hono/node-server": "^1.11.1",
+    "bullmq": "^5.7.8",
     "hono": "^4.3.6"
   },
   "devDependencies": {
